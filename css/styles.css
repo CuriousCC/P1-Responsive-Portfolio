@@ -1,4 +1,5 @@
 /* General stylings */
+
 *{
     padding: 0;
     margin: 0;
@@ -12,6 +13,12 @@
     border: 1px solid red; /*to be deleted */
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 2vw;
+}
+
 img{
     width: 100%;
     max-width: 100%;
@@ -19,4 +26,35 @@ img{
 
 a{
     text-decoration: none;
+}
+
+/* Mobile version - default */
+
+.header-container{
+    display: flex;
+    padding: 1vw;
+}
+
+.header-logo{
+    width: 25%;
+    height: 30%;
+}
+
+.header-txt{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+    font-size: 3vw;
+    align-content: flex-end;
+    margin: 1vw;
+    padding-bottom: 1vw;
+}
+
+.header-txt-title{
+    width: 100%;
+    padding: 1vw;
+    margin: 1vw;
+}
+.header-txt-subtitle{
+    width: 100%;
 }
