@@ -33,6 +33,7 @@ a{
 .header-container{
     display: flex;
     padding: 2vw;
+    margin-bottom: 5vw;
 }
 
 .header-logo{
@@ -48,7 +49,7 @@ a{
     flex-wrap: wrap;
     text-align: right;
     font-size: 3vw;
-    align-content: flex-end;
+    align-content: center;
     margin: 1vw;
     padding-bottom: 1vw;
 }
@@ -63,6 +64,12 @@ a{
 }
 
 .banner{
-    padding: 5vw 0;
+    padding: 10vw 0;
+    background-color: #00c4cc;
 }
 
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+
+}
