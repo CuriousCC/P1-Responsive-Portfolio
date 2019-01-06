@@ -32,14 +32,17 @@ a{
 
 .header-container{
     display: flex;
-    padding: 1vw;
+    padding: 2vw;
 }
 
 .header-logo{
-    width: 25%;
+    width: 30%;
     height: 30%;
 }
 
+.header-logo-img{
+    border-radius: 50%;
+}
 .header-txt{
     display: flex;
     flex-wrap: wrap;
@@ -58,3 +61,8 @@ a{
 .header-txt-subtitle{
     width: 100%;
 }
+
+.banner{
+    padding: 5vw 0;
+}
+
