@@ -55,6 +55,7 @@ ul{
     align-content: center;
     margin: 1vw;
     padding-bottom: 1vw;
+    border-bottom: 4px black solid;
 }
 
 .header-txt-title{
@@ -81,6 +82,7 @@ ul{
     text-align: center;
     padding: 5vw;
     font-size: 5vw;
+    margin-top: 5vh;
 }
 
 .portfolio-content{
@@ -123,4 +125,56 @@ ul{
 
 .portfolio-content-item--title{
     font-size: 4vw;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content-item{
+    padding: 5vw;
+    margin-top: 7vh;
+    font-size: 5vw;
+}
+
+.footer-content-item:hover{
+    transform: scale(1.10);
+}
+
+.fa-github-square{
+    color: black;
+}
+
+.fa-twitter-square{
+    color: #00aced;
+}
+.fa-linkedin{
+    color: #0077b5;
+}
+.fa-envelope-square{
+    color: red;
+}
+
+.footer-copyright{
+    width: 100%;
+    text-align: center;
+    font-size: 4vw;
+    padding-bottom: 3vh;
+}
+
+.fa-hand-holding-heart{
+    padding: 1vw;
+    color: magenta;
+}
+
+.footer-copyright--myname{
+    font-family: 'Rock Salt', cursive;
+    font-size: 3vw;
+    font-weight: 600;
 }
