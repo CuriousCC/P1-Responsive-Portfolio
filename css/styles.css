@@ -2,14 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* add prefixes for browsers 
-    -ms
-    -moz
-    -webkit
-    -o
-    */
-    border: 1px solid red;
-    /*to be deleted */
 }
 
 body {
@@ -182,7 +174,7 @@ ul {
 }
 
 @media screen and (min-width: 700px) {
-    
+
     body {
         max-width: 75%;
         margin: 0 auto;
