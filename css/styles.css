@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 2vw;
+    background-color: #faebd7ad;
 }
 
 img {
